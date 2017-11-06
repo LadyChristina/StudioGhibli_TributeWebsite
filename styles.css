@@ -1,0 +1,57 @@
+#mainmenu li {
+  display: inline; 
+  padding: 0 5px 0 5px;
+}
+ h1 {
+	text-align: center;
+ }
+
+body {
+	background-color: #45C2DD;
+	background-image: url('movingcastle.jpg'); 
+	background-attachment: scroll;
+	
+	text-align:center;
+	margin-top: 48px;
+	margin-left: 96px;
+	margin-right: 96px;
+	
+	font-family: "Tahoma",sans-serif;
+	text-align:justify;
+	
+	line-height: 1.5;
+	
+}
+
+#topnav {
+	display: block;
+	width: 100%;
+	background-color: #DCBA31
+}
+
+.leftmenu {
+	float: left;
+	text-align: left;
+}
+
+.rightmenu {
+	text-align: right;
+}
+
+#mainmenu {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#languagemenu {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+
+#languagemenu li {
+	display: inline;
+	padding: 0 5px 0 5px;
+}
