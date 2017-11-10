@@ -55,3 +55,28 @@ body {
 	display: inline;
 	padding: 0 5px 0 5px;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table, tr {
+	width: 36%;
+}
+
+td:first-child {
+	width: 32%;
+}
+
+th, td {
+	padding:0 2px 0 2px;
+}
+
+#backtoawards {
+	display:block;
+	margin-top: 30px;
+}
+
+.award {
+	margin-left: 20px;
+}
