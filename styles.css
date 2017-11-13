@@ -78,6 +78,11 @@ body{
 	padding: 0 5px 0 5px;
 }
 
+#languagemenu li:not(:last-child){
+	border-right-style: solid;
+	border-width: thin;
+}
+
 table, th, td {
     border: 1px solid black;
 }
