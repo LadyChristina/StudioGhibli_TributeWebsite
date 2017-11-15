@@ -2,35 +2,51 @@
 <html lang = "en">
   <head>
     <meta charset="utf-8">
-	<link rel="icon" type="image/ico" href="../tot.ico"/>
+	<link rel="icon" type="image/ico" href="../images/tot.ico"/>
 	<link rel="stylesheet" type="text/css" href="../styles.css"/>  
     <title> Ghibli Films</title>
   </head>
   <body>
-	<header>
-		<a href="home.html" id="logo">
-			<img src="../GhibliLogo1.png" alt="StudioGhibli Logo" id="logo">
-		</a> 
-		<nav id="topnav">
-			<div class="leftmenu">
-				<ul id="mainmenu">
-				  <li><a href="home.html">Home</a></li>
-				  <li><a href="history.html">History</a></li>
-				  <li><a class="active" href="filmography.html">Filmography</a></li>
-				  <li><a href="awards.html">Awards</a></li>
-				  <li><a href="people.html">People</a></li>
+	<div id="wrapper">
+		<header>
+			<a href="home.html" id="logo">
+				<img src="../images/GhibliLogo1.png" alt="StudioGhibli Logo" id="logo">
+			</a> 
+			<nav id="topnav">
+				<div class="leftmenu">
+					<ul id="mainmenu">
+					  <li><a href="home.html">Home</a></li>
+					  <li><a href="history.html">History</a></li>
+					  <li><a class="active" href="filmography.html">Filmography</a></li>
+					  <li><a href="awards.html">Awards</a></li>
+					  <li><a href="people.html">People</a></li>
+					</ul>
+				</div>
+				<div class="rightmenu">
+					<ul id="languagemenu">
+					  <li><a rel="alternate" hreflang = "el" href = "../el/filmography.html"> <small>Ελληνικά</small> </a></li>
+					  <li><a rel="alternate" hreflang = "en" href = "../en/filmography.html"> <small>English</small> </a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<h1>
+			This is <strong> Studio </strong> Ghibli.
+			</h1>
+		</main>
+		<footer>
+			<nav id="botnav">
+				<ul class="botmenu">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="filmography.html">Filmography</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="people.html">People</a></li>
+					<li><span>&copy; Copyright 2017 Ghibli Fans</span></li>
 				</ul>
-			</div>
-			<div class="rightmenu">
-				<ul id="languagemenu">
-				  <li><a rel="alternate" hreflang = "el" href = "../el/filmography.html"> <small>Ελληνικά</small> </a></li>
-				  <li><a rel="alternate" hreflang = "en" href = "../en/filmography.html"> <small>English</small> </a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-    <h1>
-    This is <strong> Studio </strong> Ghibli.
-  </h1>
+			</nav>
+		</footer>
+	</div>
   </body>
 </html>
