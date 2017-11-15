@@ -8,7 +8,7 @@
 
 body{
 	background-color: #45C2DD;
-	background-image: url('movingcastle.jpg');
+	background-image: url('film-icons/bg3.jpg');
 	background-attachment: scroll; 
 	
 	
@@ -138,4 +138,46 @@ th, td {
 	display:inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
 	
+}
+
+#flexbox {
+	
+	
+	display: flex;
+	
+	flex: 200px;
+	flex-wrap:wrap;
+	height:600px;
+	align-content:stretch;
+	
+}
+
+.flex-component {
+	
+	display: block;
+	
+	height:wrap;
+	width:350px;
+	
+	padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background: aqua;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: aqua;
 }
