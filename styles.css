@@ -8,8 +8,9 @@ html {
  
 body{
 	background-color: #45C2DD;
-	background-image: url('images/movingcastle.jpg');
-	#background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('images/movingcastle.jpg');
+	background-image: url('film-icons/bg3.jpg');
+	#background-image: url('movingcastle.jpg');
+	#background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('movingcastle.jpg');
 	background-attachment: scroll; 
 	
 	font-family: "Tahoma",sans-serif;
@@ -223,8 +224,52 @@ th, td {
 
 .person{
 	display: inline-block;
+}
+
+#flexbox {
 	
 	
+	display: flex;
+	
+	flex: 200px;
+	flex-wrap:wrap;
+	height:600px;
+	align-content:stretch;
+	
+}
+
+.flex-component {
+	
+	display: block;
+	
+	height:wrap;
+	width:350px;
+	
+	padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+	
+    background-color: rgba(255,152,166,0.75);
+    background-image: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+	
+	
+
+}
+
+.movie-poster{
+	float: bottom;
 }
 
 .person-photo-left{
@@ -271,5 +316,3 @@ h2{
 .role_name{
 	float: right;
 }
-
-	
