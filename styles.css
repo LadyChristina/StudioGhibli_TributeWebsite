@@ -8,7 +8,7 @@ html {
  
 body{
 	background-color: #45C2DD;
-	background-image: url('film-icons/bg3.jpg');
+	background-image: url('images/bg3.jpg');
 	#background-image: url('movingcastle.jpg');
 	#background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('movingcastle.jpg');
 	background-attachment: scroll; 
@@ -290,10 +290,11 @@ th, td {
 	
 #listofpeople li {
 	clear:both;
-	#background-color: yellow;
-	background: rgba(255, 255, 0, 0.7);
+	background-color: yellow;
+	/*background: rgba(255, 255, 0, 0.7);*/
 	margin-top: 10px;
 	margin-bottom: 10px;
+	max-width: 1500px;
 }
 
 figure{
@@ -301,6 +302,7 @@ figure{
         margin-bottom: 5px;
     	margin-left: 5px;
     	margin-right: 5px;
+		border-radius: 25px;
 }
 
 h2{
