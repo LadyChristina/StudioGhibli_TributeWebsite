@@ -228,8 +228,9 @@ th, td {
 	
 	flex: 200px;
 	flex-wrap:wrap;
-	height:600px;
+	#height:600px;
 	align-content:stretch;
+	margin-bottom: 36px;
 	
 }
 
