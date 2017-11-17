@@ -8,9 +8,7 @@ html {
  
 body{
 	background-color: #45C2DD;
-	background-image: url('images/bg3.jpg');
-	#background-image: url('movingcastle.jpg');
-	#background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('movingcastle.jpg');
+	background-image: url('images/bg.png');
 	background-attachment: scroll; 
 	
 	font-family: "Tahoma",sans-serif;
@@ -23,6 +21,17 @@ body{
 	padding: 0;
 	position: relative;
 	
+}
+
+#filmography-body{
+	background-color: #45C2DD;
+	background-image: url('images/bg3.jpg');
+	
+}
+
+#home-body {
+	background-color: #45C2DD;
+	background-image: url('images/bg3.jpg');
 }
 
 #container {
@@ -40,22 +49,17 @@ header {
 }
 
 main {
-	#margin-top: 48px;
 	margin-left: 96px;
 	margin-right: 96px;
-	#margin-bottom: 48px;
 	padding-bottom: 50px;
 }
 
 footer {
-	padding-top: 8px;
-	padding-bottom: 8px;
 	position: absolute;
-	#height: 50px;
 	bottom: 0;
 	width: 100%;
 	clear: both;
-	background-color: SteelBlue;
+	background-color: #9BA2AF;
 }
 
 #logo {
@@ -68,7 +72,7 @@ footer {
 nav#topnav {
 	display: block;
 	width: 100%;
-	background-color: #ffa500;
+	background-color: #f06060;
 	overflow: hidden;
 	padding: 10px 0 10px 0;
 }
@@ -84,13 +88,15 @@ nav#topnav a {
 nav#topnav a:hover {
 	background-color: #6a5acd;
 	color: white;
-	/*opacity: 0.7;*/
 }
 
 nav#topnav a.active {
-	background-color: #6a5acd;
+	background-color: #000000;
 	color: white;
-	/*opacity: 0.7;*/
+}
+
+#languagemenu a.active_language {
+	text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
@@ -155,10 +161,25 @@ nav#botnav ul.botmenu li:last-child span {
 
 main div.transbox {
 	margin:30px 0 30px 0;
-	border-radius: 25px;
-	background: rgba(255, 255, 255, 0.6);
-	filter: alpha(opacity=60);
+	background: rgba(255, 255, 255, 0.85);
+	filter: alpha(opacity=85);
 	padding: 20px;
+}
+
+#trans-awards {
+	margin:30px 0 30px 0;
+	
+	background: rgba(224, 219, 180, 0.85);
+	filter: alpha(opacity=85);
+
+}
+
+#trans-home {
+	margin:30px 0 30px 0;
+	
+	background: rgba(240, 188, 188, 0.85);
+	filter: alpha(opacity=85);
+
 }
 
  h1 {
@@ -178,7 +199,8 @@ td:first-child {
 }
 
 th, td {
-	padding:0 2px 0 2px;
+	padding: 0 2px 0 2px;
+	text-align: left;
 }
 
 .award {
@@ -201,7 +223,7 @@ th, td {
 	color: #eee;
 	background-color: rgba(0, 0, 0, 0.3);
 	transition: all .25s ease;
-	padding: 6px;
+	padding: 4px;
 	border-radius: 5px;
 	text-align: center;
 }
@@ -290,8 +312,7 @@ th, td {
 	
 #listofpeople li {
 	clear:both;
-	background-color: yellow;
-	/*background: rgba(255, 255, 0, 0.7);*/
+	background: rgba(144, 137, 230, 0.9);
 	margin-top: 10px;
 	margin-bottom: 10px;
 	max-width: 1500px;
