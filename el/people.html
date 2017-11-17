@@ -2,6 +2,10 @@
 <html lang = "el">
   <head>
     <meta charset="utf-8">
+	<meta name="description" content="A site about Studio Ghibli, its people and their inspired creations. People page.">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Dimitris Danis, Christina Ovezik, Eva Perontsi">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/ico" href="../images/tot.ico"/>
 	<link rel="stylesheet" type="text/css" href="../styles.css"/>  
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,7 +14,7 @@
   <body>  
 	<div id="wrapper">
 		<header>
-			<a href="home.html" id="logo">
+			<a href="home.html">
 				<img src="../images/GhibliLogo1.png" alt="StudioGhibli Logo" id="logo">
 			</a> 
 			<nav id="topnav">
@@ -25,7 +29,7 @@
 				</div>
 				<div class="rightmenu">
 					<ul id="languagemenu">
-					  <li><a rel="alternate" hreflang = "el" href = "../el/people.html"> <small>Ελληνικά</small> </a></li>
+					  <li><a class="active_language" rel="alternate" hreflang = "el" href = "../el/people.html"> <small>Ελληνικά</small> </a></li>
 					  <li><a rel="alternate" hreflang = "en" href = "../en/people.html"> <small>English</small> </a></li>
 					</ul>
 				</div>
@@ -81,7 +85,7 @@
 					</figure>
 						<div class="person-info">
 						<h2>
-							Isao Takahata  <span class="role_name">Co-Founder</span>
+							Isao Takahata  <span class="role_name">Συνιδρυτής</span>
 						</h2>
 						<p>
 							Ο Ισάο Τακαχάτα (ιαπωνικά: 高畑 勲 Takahata Isao) γεννημένος σις 29 Οκτωβρίου του 1935) είναι Ιάπωνας σκηνοθέτης ταινιών, σχεδιαστής κινουμένων σχεδίων, σεναριογράφος και παραγωγός,  που έχει κερδίσει διεθνή αναγνώριση για το έργο του ως σκηνοθέτης ταινιών anime. <br/><br/>Ο Τακαχάτα αποφοίτησε από το Πανεπιστήμιο του Τόκυο με πτυχίο στη Γαλλική Φιλολογία το 1959, και λίγο αργότερα γνώρισε τον Μιγιαζάκι και σκηνοθέτησε την πρώτη του ταινία μεγάλου μήκους "Hols: Prince of the Sun". <br/>Αντίθετα από τους περισσότερους σκηνοθέτες κινουμένων σχεδίων, ο Τακαχάτα δε σχεδιάζει.<br/> Σύμφωνα με τον Χαγιάο Μιγιαζάκι, "Η μουσική και το διάβασμα είναι τα χόμπυ του".
@@ -239,6 +243,23 @@ O Kondō πέθανε από αορτική ανατομή το 1998. Ο θάν�
 				</div>
 			</div>
 		</li>
+		<li>
+			<div class="person" id="Hisaishi">
+				<figure class="person-photo-left">
+					<img src="../images/people/Joe_Hisaishi.jpg" alt = "Joe Hisaishi" title="Joe Hisaishi" width="175" height="225">
+				</figure>
+				<div class="person-info">
+					<h2>
+						Joe Hisaishi  <span class="role_name"> Musical Director </span>
+					</h2>
+					<p>
+					Ο Mamoru Fujisawa (藤澤 守, γεννημένος στις 6 Δεκεμβρίου 1950), γνωστός επαγγελματικά ως Joe Hisaishi (久 石 譲 Hisaishi Jō), είναι Ιάπωνας συνθέτης και μουσικός διευθυντής γνωστός για πάνω από 100 ταινίες και σόλο άλμπουμ που χρονολογούνται από το 1981. <br/>
+Παρόλο που διαθέτει ένα στιλιστικά ξεχωριστό ήχο, η μουσική του Hisaishi είναι γνωστό ότι εξερευνά και ενσωματώνει διαφορετικά είδη, συμπεριλαμβανομένων των μινιμαλιστικών, πειραματικών ηλεκτρονικών, ευρωπαϊκών κλασσικών και ιαπωνικών κλασσικών. <br/>
+Έχει συσχετιστεί με τον Hayao Miyazaki από το 1984, έχοντας συνθέσει κομμάτια για όλες τις ταινίες του, εκτός από το The Castle of Cagliostro.
+					</p>
+			</div>
+			</div>
+		</li>
 		</ul>
 		<div id="back-top">
 			<a href="#logo" title="Back to Top">
@@ -246,9 +267,9 @@ O Kondō πέθανε από αορτική ανατομή το 1998. Ο θάν�
 				</i>
 			</a>
 		</div>
-	<div>
   </main>
   <footer>
+  
 			<nav id="botnav">
 				<ul class="botmenu">
 					<li><a href="home.html">Αρχική</a></li>
@@ -260,5 +281,6 @@ O Kondō πέθανε από αορτική ανατομή το 1998. Ο θάν�
 				</ul>
 			</nav>
 	</footer>
+	</div>
 	</body>
 </html>
