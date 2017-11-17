@@ -2,6 +2,10 @@
 <html lang = "el">
   <head>
     <meta charset="utf-8">
+	<meta name="description" content="A site about Studio Ghibli, its people and their inspired creations. Awards page.">
+	<meta name="keywords" content="HTML,CSS">
+	<meta name="author" content="Dimitris Danis, Christina Ovezik, Eva Perontsi">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/ico" href="../images/tot.ico"/>
 	<link rel="stylesheet" type="text/css" href="../styles.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,7 +29,7 @@
 				</div>
 				<div class="rightmenu">
 					<ul id="languagemenu">
-					  <li><a rel="alternate" hreflang = "el" href = "../el/awards.html"> <small>Ελληνικά</small> </a></li>
+					  <li><a class="active_language" rel="alternate" hreflang = "el" href = "../el/awards.html"> <small>Ελληνικά</small> </a></li>
 					  <li><a rel="alternate" hreflang = "en" href = "../en/awards.html"> <small>English</small> </a></li>
 					</ul>
 				</div>
@@ -33,16 +37,16 @@
 		</header>
 		<main>
 			<div class="transbox">
-				<article id="awards_article">
-					<h1>Studio Ghibli Awards</h1>
+				<h1>Διακρίσεις του Studio Ghibli </h1>
+				<article id="awards_article" id="trans-awards">
 					<p>
-						Over the course of 32 years of making animated movies (since 1985), Studio Ghibli has received many awards and nominations for their films. 
+						Κατά τη διάρκεια των 32 χρόνων δημιουργίας ταινιών κινουμένων σχεδίων (από το 1985), το Studio Ghibli έχει λάβει πολλά βραβεία και υποψηφιότητες για τις ταινίες του.
 					</p>
 					<p>
-						Eight of Studio Ghibli's films are among the 15 highest-grossing anime films made in Japan, with Spirited Away (2001) being the second highest, grossing over US$290 million worldwide. Many of their works have won the Animage Anime Grand Prix award, and four have won the Japan Academy Prize for Animation of the Year. Five of Studio Ghibli's films received Academy Award nominations in the United States. Spirited Away won a Golden Bear in 2002 and an Academy Award for Best Animated Feature Film in 2003.
+						Οκτώ από τις ταινίες του Studio Ghibli συγκαταλέγονται στις 15 πιο εμπορικά επιτυχημένες ταινίες ιαπωικής προέλευσης, με το Spirited Away (2001) να είναι δεύτερη, με κέρδη άνω των 290 εκατομμυρίων δολαρίων παγκοσμίως. Πολλά από τα έργα τους έχουν κερδίσει το βραβείο Animage Anime Grand Prix και τέσσερα κέρδισαν το Βραβείο Ιαπωνικής Ακαδημίας για το Animation of the Year. Πέντε ταινίες του Studio Ghibli έλαβαν υποψηφιότητες για Όσκαρ στις Ηνωμένες Πολιτείες. Το Spirited Away κέρδισε το 2002 μια Χρυσή Αρκούδα και το 2003 βραβείο Όσκαρ για την καλύτερη κινηματογραφική ταινία κινουμένων σχεδίων.
 					</p>
 					<p>
-						Below is a list of all the Studio Ghibli films that have won an award or were nominated for one.
+						Παρακάτω παρατίθεται μια λίστα με όλες τις ταινίες του Studio Ghibli που έχουν κερδίσει ή ήταν υποψήφιες για ένα βραβείο.
 					</p>
 					<ul id="awardist">
 						<li><a href="#Laputa_awards">Laputa: Castle in the Sky (1 award)</a></li>
@@ -149,7 +153,7 @@
 					<h3 class="award">Mainichi Film Concours <small>(1993)</small></h3>
 					<table class="award">
 						<tr><td rowspan="2"><b>Won</b><br><small>Mainichi Film Concours</small></td><td>Best Animated Film<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
-						<tr><td class="multirow"></td><td>Best Best Film Score<br>Joe Hisaishi<br>For Seishun dendekedekedeke</td></tr>
+						<tr><td class="multirow"></td><td>Best Best Film Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a><br>For Seishun dendekedekedeke</td></tr>
 					</table>
 					
 					<h3 class="award">Nikkan Sports Film Awards <small>(1992)</small></h3>
@@ -272,7 +276,7 @@
 					<table class="award">
 						<tr><td><b>Won</b><br><small>Saturn Award</small></td><td>Best Animated Film</td></tr>
 						<tr><td rowspan="2"><b>Nominated</b><br><small>Saturn Award</small></td><td>Best Writing<br><a href="people.html#Miyazaki">Hayao Miyazaki</a><br>Cindy Davis Hewitt <small>(english version)</small><br>Donald H. Hewitt <small>(english version)</small></td></tr>
-						<tr><td class="multirow"></td><td>Best Music<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Music<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">Amsterdam Fantastic Film Festival <small>(2003)</small></h3>
@@ -284,7 +288,7 @@
 					<table class="award">
 						<tr><td rowspan="4"><b>Won</b><br><small>Annie</small></td><td>Outstanding Achievement in an Animated Theatrical Feature</td></tr>
 						<tr><td class="multirow"></td><td>Outstanding Directiong in an Animateed Feature Production<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
-						<tr><td class="multirow"></td><td>Outstanding Music in an Animated Feature Production<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Outstanding Music in an Animated Feature Production<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td class="multirow"></td><td>Outstanding Writing in an Animated Feature Production<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 					</table>
 					
@@ -336,7 +340,7 @@
 					<h3 class="award">Chicago Film Critics Association Awards <small>(2003)</small></h3>
 					<table class="award">
 						<tr><td rowspan="2"><b>Nominated</b><br><small>CFCA Award</small></td><td>Best Foreign Language Film<br><small>Japan.</small></td></tr>
-						<tr><td class="multirow"></td><td>Best Original Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Original Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">Christopher Awards <small>(2003)</small></h3>
@@ -437,7 +441,7 @@
 						<tr><td rowspan="2"><b>Won</b><br><small>INOCA</small></td><td>Best Non-English Language Film<br><a href="people.html#Miyazaki">Hayao Miyazaki</a><br><small>Japan</small></td></tr>
 						<tr><td class="multirow"></td><td>Best Animated Feature<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td rowspan="2"><b>Nominated</b><br><small>INOCA</small></td><td>Best Original Screenplay<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
-						<tr><td class="multirow"></td><td>Best Original Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Original Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">Italian Online Movie Awards (IOMA) <small>(2004)</small></h3>
@@ -475,7 +479,7 @@
 						<tr><td rowspan="4"><b>Won</b><br><small>Mainichi Film Concours</small></td><td>Best Film<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td class="multirow"></td><td>Best Animated Film<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td class="multirow"></td><td>Best Director<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
-						<tr><td class="multirow"></td><td>Best Music Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Music Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td><b>Won</b><br><small>Readers' Choice Award</small></td><td>Best Film<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 					</table>
 					
@@ -508,7 +512,7 @@
 					<table class="award">
 						<tr><td><b>Won</b><br><small>OFTA Film Award</small></td><td>Best Animated Picture<br><a href="people.html#Suzuki">Toshio Suzuki</a><br>Donald W. Ernst <small>(English version)</small></td></tr>
 						<tr><td rowspan="3"><b>Nominated</b><br><small>OFTA Film Award</small></td><td>Best Foreign Language Film<br><small>Japan</small></td></tr>
-						<tr><td class="multirow"></td><td>Best Music, Original Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Music, Original Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td class="multirow"></td><td>Best Cinematic Moment<br><small>The Train Ride</small></td></tr>
 					</table>
 					
@@ -551,7 +555,7 @@
 						<tr><td><b>Won</b><br><small>Best Art Direction</small></td><td>Film Category<br>Yôji Takeshige</td></tr>
 						<tr><td><b>Won</b><br><small>Best Character Design</small></td><td>Film Category<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td><b>Won</b><br><small>Best Director</small></td><td>Film Category<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
-						<tr><td><b>Won</b><br><small>Best Music</small></td><td>Film Category<br>Joe Hisaishi</td></tr>
+						<tr><td><b>Won</b><br><small>Best Music</small></td><td>Film Category<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td><b>Won</b><br><small>Best Screenplay</small></td><td>Film Category<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td><b>Won</b><br><small>Best Voice Actor</small></td><td>Film Category<br>Rumi Hiiragi</td></tr>
 						<tr><td><b>Won</b><br><small>Notable Entry</small></td><td> Domestic Feature Film Category<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
@@ -645,7 +649,7 @@
 					
 					<h3 class="award">Los Angeles Film Critics Association Awards <small>(2005)</small></h3>
 					<table class="award">
-						<tr><td><b>Won</b><br><small>LAFCA Award</small></td><td>Best Music<br>Joe Hisaishi<br>Yumi Kimura</td></tr>
+						<tr><td><b>Won</b><br><small>LAFCA Award</small></td><td>Best Music<br><a href="#people.html#Hisaishi">Joe Hisaishi</a><br>Yumi Kimura</td></tr>
 					</table>
 					
 					<h3 class="award">Mainichi Film Concours <small>(2005)</small></h3>
@@ -720,7 +724,7 @@
 					<table class="award">
 						<tr><td><b>Won</b><br><small>Animation of the Year</small></td><td><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td><b>Won</b><br><small>Best Director</small></td><td><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
-						<tr><td><b>Won</b><br><small>Best Music</small></td><td>Film Category<br>Joe Hisaishi</td></tr>
+						<tr><td><b>Won</b><br><small>Best Music</small></td><td>Film Category<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td><b>Won</b><br><small>Best Voice Actor</small></td><td>Film Category<br>Chieko Baishô</td></tr>
 					</table>
 					
@@ -761,7 +765,7 @@
 					
 					<h3 class="award">Asian Film Awards <small>(2009)</small></h3>
 					<table class="award">
-						<tr><td><b>Won</b><br><small>Asian Film Award</small></td><td>Best Composer<br>Joe Hisaishi</td></tr>
+						<tr><td><b>Won</b><br><small>Asian Film Award</small></td><td>Best Composer<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td rowspan="2"><b>Nominated</b><br><small>Asian Film Award</small></td><td>Best Director<br><a href="people.html#Miyazaki">Hayao Miyazaki</a></td></tr>
 						<tr><td class="multirow"></td><td>Best Film</td></tr>
 					</table>
@@ -773,7 +777,7 @@
 					
 					<h3 class="award">Awards of the Japanese Academy <small>(2009)</small></h3>
 					<table class="award">
-						<tr><td rowspan="2"><b>Won</b><br><small>Award of the Japanese Academy</small></td><td>Best Film Score<br>Joe Hisaishi</td></tr>
+						<tr><td rowspan="2"><b>Won</b><br><small>Award of the Japanese Academy</small></td><td>Best Film Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td class="multirow"></td><td>Best Animation Film</td></tr>
 					</table>
 					
@@ -796,12 +800,12 @@
 					<table class="award">
 						<tr><td><b>2nd place</b><br><small>ICS Award</small></td><td>Best Animated Film<br><small>Runner-Up.</small></td></tr>
 						<tr><td rowspan="2"><b>Nominated</b><br><small>ICS Award</small></td><td>Best Film Not in the English Language<br><small>9th place.</small></td></tr>
-						<tr><td class="multirow"></td><td>Best Original Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Original Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">International Film Music Critics Award (IFMCA) <small>(2008)</small></h3>
 					<table class="award">
-						<tr><td><b>Nominated</b><br><small>IFMCA Award</small></td><td>Best Original Score for an Animated Feature Film<br>Joe Hisaishi</td></tr>
+						<tr><td><b>Nominated</b><br><small>IFMCA Award</small></td><td>Best Original Score for an Animated Feature Film<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">International Online Cinema Awards (INOCA) <small>(2010)</small></h3>
@@ -1073,7 +1077,7 @@
 					<h3 class="award">Awards of the Japanese Academy <small>(2014)</small></h3>
 					<table class="award">
 						<tr><td rowspan="2"><b>Won</b><br><small>Award of the Japanese Academy</small></td><td>Best Animation Film<br><a href="people.html#Miyazaki">Hayao Miyazaki</a> <small>(director)</small></td></tr>
-						<tr><td class="multirow"></td><td>Best Music Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Music Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">Behind the Voice Actors Awards <small>(2015)</small></h3>
@@ -1225,7 +1229,7 @@
 					
 					<h3 class="award">International Film Music Critics Award (IFMCA) <small>(2013)</small></h3>
 					<table class="award">
-						<tr><td><b>Won</b><br><small>IFMCA Award</small></td><td>Best Original Score for an Animated Feature Film<br>Joe Hisaishi</td></tr>
+						<tr><td><b>Won</b><br><small>IFMCA Award</small></td><td>Best Original Score for an Animated Feature Film<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">International Online Cinema Awards (INOCA) <small>(2014)</small></h3>
@@ -1402,7 +1406,7 @@
 					<table class="award">
 						<tr><td rowspan="3"><b>Nominated</b><br><small>Annie</small></td><td>Best Animated Feature</td></tr>
 						<tr><td class="multirow"></td><td>Outstanding Achievement in Directing in an Animated Feature Production<br><a href="people.html#Takahata">Isao Takahata</a></td></tr>
-						<tr><td class="multirow"></td><td>Outstanding Achievement in Music in an Animated Feature Production<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Outstanding Achievement in Music in an Animated Feature Production<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">Asia Pacific Screen Awards <small>(2014)</small></h3>
@@ -1418,7 +1422,7 @@
 					<h3 class="award">Awards of the Japanese Academy <small>(2014)</small></h3>
 					<table class="award">
 						<tr><td rowspan="2"><b>Nominated</b><br><small>Award of the Japanese Academy</small></td><td>Best Animation Film<br><a href="people.html#Takahata">Isao Takahata</a> <small>(director)</small></td></tr>
-						<tr><td class="multirow"></td><td>Best Music Score<br>Joe Hisaishi</td></tr>
+						<tr><td class="multirow"></td><td>Best Music Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 					</table>
 					
 					<h3 class="award">Behind the Voice Actors Awards <small>(2015)</small></h3>
@@ -1499,7 +1503,7 @@
 					<h3 class="award">International Cinephile Society Awards <small>(2015)</small></h3>
 					<table class="award">
 						<tr><td><b>Won</b><br><small>ICS Award</small></td><td>Best Animated Film</td></tr>
-						<tr><td rowspan="2"><b>Nominated</b><br><small>ICS Award</small></td><td>BestOriginal Score<br>Joe Hisaishi</td></tr>
+						<tr><td rowspan="2"><b>Nominated</b><br><small>ICS Award</small></td><td>BestOriginal Score<br><a href="#people.html#Hisaishi">Joe Hisaishi</a></td></tr>
 						<tr><td class="multirow"></td><td>Best Film Not in the English Language<br><small>6th place.</small></td></tr>
 					</table>
 					
@@ -1521,7 +1525,7 @@
 						Riko Sakaguchi
 						</td></tr>
 						<tr><td class="multirow"></td><td>Best Original Score (Miglior colonna sonora)<br>
-						Jeo Hisaishi
+						<a href="people.html#Hisaishi">Joe Hisaishi</a>
 						</td></tr>
 					</table>
 					
