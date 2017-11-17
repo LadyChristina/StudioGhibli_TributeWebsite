@@ -143,8 +143,6 @@ th, td {
 	
 }
 
-
-
 #flexbox {
 	
 	
@@ -182,13 +180,7 @@ th, td {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-	
-	
 
-}
-
-.movie-poster{
-	float: bottom
 }
 
 .person{
