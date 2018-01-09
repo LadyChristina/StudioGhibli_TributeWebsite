@@ -16,7 +16,6 @@ body{
 	line-height: 1.5;
 	
 	min-height: 100%;
-	#height: 100%;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -49,8 +48,8 @@ header {
 }
 
 main {
-	margin-left: 96px;
-	margin-right: 96px;
+	margin-left: 7%;
+	margin-right: 7%;
 	padding-bottom: 50px;
 }
 
@@ -81,7 +80,6 @@ nav#topnav a {
 	overflow: hidden;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17;
 	color: black;
 }
 
@@ -107,6 +105,10 @@ nav#topnav a.active {
 		float: none;
 		display: block;
 		text-align: left;
+	}
+	
+	.person-info{
+		clear: both;
 	}
 }
 
@@ -177,7 +179,7 @@ main div.transbox {
 #trans-home {
 	margin:30px 0 30px 0;
 	
-	background: rgba(240, 188, 188, 0.85);
+	background: rgba(240,96,96, 0.85);
 	filter: alpha(opacity=85);
 
 }
@@ -209,10 +211,6 @@ th, td {
 
 .multirow {
 	display:none;
-}
-
-#back-top {
-	display: visible;
 }
 
 #back-top a {
@@ -247,10 +245,7 @@ th, td {
 #flexbox {
 	
 	display: flex;
-	
-	#flex: 200px;
 	flex-wrap:wrap;
-	#height:600px;
 	align-items: flex-start;
 	margin-bottom: 36px;
 	
@@ -302,7 +297,7 @@ th, td {
 .person-info{
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-top: 0px;
+	margin-top: 0px;	
 }
 
 #listofpeople{
@@ -312,10 +307,11 @@ th, td {
 	
 #listofpeople li {
 	clear:both;
-	background: rgba(144, 137, 230, 0.9);
+	background: rgba(69,194,221,0.95);
 	margin-top: 10px;
 	margin-bottom: 10px;
 	max-width: 1500px;
+	min-width: 270px;
 }
 
 figure{
@@ -327,7 +323,6 @@ figure{
 }
 
 h2{
-	/*margin-top: 0px;*/
 	border-bottom-style: solid;
     	border-width: thin;
 	overflow: hidden;
@@ -335,4 +330,8 @@ h2{
 
 .role_name{
 	float: right;
+}
+
+#people_h1{
+	background: rgba(69,194,221,0.95);
 }
