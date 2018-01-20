@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+  	<meta charset="utf-8">
+	<meta name="description" content="A site about Studio Ghibli, its people and their inspired creations. Comment section.">		
+	<meta name="keywords" content="HTML,CSS">		
+	<meta name="author" content="Dimitris Danis, Christina Ovezik, Eva Perontsi">		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/ico" href="../images/tot.ico"/>
+	<!--<link rel = "alternate" title = "The site in Greek" type = "text/html" hreflang = "el" href="../el/home.html"-->
+	<link rel="stylesheet" type="text/css" href="../styles.css"/>  
+  	<title> Studio Ghibli </title>
+  </head>
+  <body id="home-body">
+	<div id="wrapper">
+		<header>
+			<a href="home.html">
+				<img src="../images/GhibliLogo1.png" alt="StudioGhibli Logo" id="logo">
+			</a> 
+			<nav id="topnav">
+				<div class="leftmenu">
+					<ul id="mainmenu">
+					  <li><a href="home.html">Home</a></li>
+					  <li><a href="history.html">History</a></li>
+					  <li><a href="filmography.html">Filmography</a></li>
+					  <li><a href="awards.html">Awards</a></li>
+					  <li><a href="people.html">People</a></li>
+					  <li><a href="quiz.html">Quiz</a></li>
+					  <li><a  class="active" href="comments.html">Comments</a></li>
+					</ul>
+				</div>
+				<div class="rightmenu">
+					<ul id="languagemenu">
+					  <li><a rel="alternate" hreflang = "el" href = "../el/home.html"> <small>Ελληνικά</small> </a></li>
+					  <li><a class="active_language" rel="alternate" hreflang = "en" href = "../en/home.html"> <small>English</small> </a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="transbox" id="trans-home">
+				<h1>
+				Express your love for studio Ghibli 
+				</h1>
+				<section id="content">
+				</section>
+				<div id="respond">
+					<h3> Share your thoughts</h3>
+					<form action="post_comment.php" method="post" id="commentform">
+						
+						<label for="comment" class="required">Your comment</label>
+						<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+						
+						<label for="email" class="required">Your e-mail</label>
+						<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+						
+						<input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+						<input name="submit" type="submit" value="Submit comment" />
+						
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<nav id="botnav">
+				<ul class="botmenu">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="history.html">History</a></li>
+					<li><a href="filmography.html">Filmography</a></li>
+					<li><a href="awards.html">Awards</a></li>
+					<li><a href="people.html">People</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="comments.html">Comments</a></li>
+					<li><span>&copy; Copyright 2017-18 Ghibli Fans</span></li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+  </body>
+</html>
