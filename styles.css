@@ -9,7 +9,7 @@ html {
 body{
 	background-color: #45C2DD;
 	background-image: url('images/bg.png');
-	background-attachment: scroll; 
+	background-attachment: scroll;
 	
 	font-family: "Tahoma",sans-serif;
 	text-align:justify;
@@ -334,4 +334,24 @@ h2{
 
 #people_h1{
 	background: rgba(69,194,221,0.95);
+}
+
+.midAlign{
+	text-align: center;
+}
+
+#quizButt{
+	display: inline-block;
+}
+
+#yay{
+	display: inline;
+	background-color: MediumSeaGreen;
+	color:#fff;
+}
+
+#nay{
+	display: inline;
+	background-color: Tomato;
+	color:#fff;
 }
