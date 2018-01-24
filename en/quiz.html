@@ -9,7 +9,6 @@
 	<link rel="icon" type="image/ico" href="../images/tot.ico"/>
 	<link rel="stylesheet" type="text/css" href="../styles.css"/>  
   	<title> Studio Ghibli </title>
-  	<script type="text/javascript" src="quiz.js"></script>
   </head>
   <body id="home-body">
 	<div id="wrapper">
@@ -31,38 +30,23 @@
 				</div>
 				<div class="rightmenu">
 					<ul id="languagemenu">
-					  <li><a rel="alternate" hreflang = "el" href = "../el/index.html"> <small>Ελληνικά</small> </a></li>
-					  <li><a class="active_language" rel="alternate" hreflang = "en" href = "../en/index.html"> <small>English</small> </a></li>
+					  <li><a rel="alternate" hreflang = "el" href = "../el/quiz.html"> <small>Ελληνικά</small> </a></li>
+					  <li><a class="active_language" rel="alternate" hreflang = "en" href = "../en/quiz.html"> <small>English</small> </a></li>
 					</ul>
 				</div>
 			</nav>
 		</header>
 		<main>
-			<div class="transbox" id="trans-home">
-				<h1>
-				Quiz time!
-				</h1>
+			<div class="transbox" id="trans-quiz">
+				<h1 id="quiz_status">Quiz time!</h1>
+				<div class="midAlign" id="quiz">
+					<button id="quizButt" type="button">Start Quiz</button>
+				</div>
+				<div class="midAlign">
+					<div id="results"></div>
+				</div>
 			</div>
-			<form id = "quiz" name = "quiz">
-
-
-    <p class = "questions">What is the capital of Connecticut?</p>
-    <input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
-    <input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br>
-
-    <p class = "questions">What is the capital of New York?</p>
-
-    <input type = "radio" id = "mc" name = "question3" value = "Albany"> Albany<br>
-    <input type = "radio" id = "mc" name = "question3" value = "All Benny's"> All Benny's<br>
-
-
-    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
-
-
-</form>
-<form>
-<input name="buttonTime" id="buttonTime" type="button" value="Submit">
-</form>
+			
 
 		</main>
 		<footer>
@@ -80,5 +64,6 @@
 			</nav>
 		</footer>
 	</div>
+	<script type="text/javascript" src="quiz2.js"></script>
   </body>
 </html>
