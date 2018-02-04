@@ -1,0 +1,6 @@
+CREATE TABLE comments (
+	cid int(11) not null AUTO_INCREMENT PRIMARY KEY,
+    umail varchar(128) not null,
+    date datetime not null,
+    comment TEXT not null
+);

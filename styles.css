@@ -9,7 +9,7 @@ html {
 body{
 	background-color: #45C2DD;
 	background-image: url('images/bg.png');
-	background-attachment: scroll;
+	background-attachment: scroll; 
 	
 	font-family: "Tahoma",sans-serif;
 	text-align:justify;
@@ -31,6 +31,11 @@ body{
 #home-body {
 	background-color: #45C2DD;
 	background-image: url('images/bg3.jpg');
+}
+
+#comments-body {
+	background-color: #45C2DD;
+	background-image: url('images/bg2.jpg');
 }
 
 #container {
@@ -110,6 +115,10 @@ nav#topnav a.active {
 	.person-info{
 		clear: both;
 	}
+
+        .qContainer{
+                padding = 0px;
+        }
 }
 
 nav#topnav div.leftmenu {
@@ -324,7 +333,7 @@ figure{
 
 h2{
 	border-bottom-style: solid;
-    	border-width: thin;
+    border-width: thin;
 	overflow: hidden;
 }
 
@@ -334,6 +343,51 @@ h2{
 
 #people_h1{
 	background: rgba(69,194,221,0.95);
+}
+
+#respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#message {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  height: 200px;
+  resize:none;
+
+  border: 2px solid rgba(0, 0, 0, 1);
+
+  line-height: 1.4em;
+}
+
+#respond input[type='email'],
+#umail {
+	margin-bottom: 10px;
+    display: block;
+    width: 35%;
+    resize:none;
+
+    border: 2px solid rgba(0, 0, 0, 1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+    line-height: 1.4em;
+}
+
+#trans-comments {
+	margin:60px 0 30px 0;
+	background: rgba(155, 214, 124, 0.75);
+	filter: alpha(opacity=85);
+}
+
+#comments-list {
+	margin:30px 0 30px 0;
+	background: rgba(155, 214, 124, 0.75);
+	filter: alpha(opacity=85);
 }
 
 .midAlign{
@@ -355,3 +409,168 @@ h2{
 	background-color: Tomato;
 	color:#fff;
 }
+
+#submitButt {
+	width: 150px;
+	height: 30px;
+	margin-bottom: 30px;
+	background-color: rgba(47, 73, 77, 0.90);
+	display: inline-block;
+	color: white;
+}
+
+.comment-box {
+	width: 100%;
+	margin-bottom:10px;
+	background-color: rgba(197, 255, 246, 0.6);
+}
+
+
+#quiz-body{
+	background-color: #45C2DD;	
+        background-image: none;
+}
+
+.qContainer{
+	margin:30px 0 30px 0;
+	background: rgba(255,255,255,0.5);
+	padding: 60px;
+	border: 1px solid #08038C;
+	box-shadow: 0 0 8px 3px #fff;
+}
+
+.title{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #08038C
+}
+
+.question{
+	max-width:1000px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	font-size: 22px;
+	background: #08038C;
+	border-radius: 20px;
+	color: #f6f6f6;
+}
+
+.greenOption{
+	max-width:500px;
+	display: block;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	//vertical-align: middle;
+	background: rgba(0,255,0,0.4);
+	margin-left: auto;
+        margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.redOption{
+	max-width:500px;
+	display: block;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	//vertical-align: middle;
+	background: rgba(255,0,0,0.8);
+	margin-left: auto;
+        margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	border-radius: 20px;
+	}
+
+.option{
+	max-width:500px;
+	display: block;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	//vertical-align: middle;
+	background: rgba(255,255,255,0.5);
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	border-radius: 20px;
+}
+
+.option:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.next-btn{
+	border:none;
+	outline:none;
+	background: rgba(255,25,255,0.5);
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+}
+
+.next-btn:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.resultContainer{
+	height: 100px;
+	text-align:center;
+	font-size: 25px;
+	display:none;
+}
+
+.option input:checked .option{
+	background: #08038C;
+	color: #000;
+}
+
+.restart {
+	border:none;
+	outline:none;
+	background: rgba(255,25,255,0.5);
+	width: 100px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 10px;
+	text-align: center;
+}
+
+.restart:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+#notSelected {
+	height: 20px;
+	width: 200px;
+	background:  rgba(255,200,255,0.5);
+	display:none;
+	align: center;
+}
+
+#questionsContainer {
+	display:none;
+}
+
+#startQuiz{
+	text-align: center;
+}
+
+
