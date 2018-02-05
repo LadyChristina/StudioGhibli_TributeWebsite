@@ -25,7 +25,6 @@
 				<li><a class="active" href="filmography.php">Ταινίες</a></li>
 				<li><a href="awards.php">Διακρίσεις</a></li>
 				<li><a href="people.php">Συντελεστές</a></li>
-				<li><a href="comments.php">Σχόλια</a></li>
 				<li><a href="../en/quiz.php">Κουίζ</a></li>
 				<li><a href="../en/comments.php">Σχόλια</a></li>
             </ul>
