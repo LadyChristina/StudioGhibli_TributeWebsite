@@ -14,7 +14,7 @@
   <body>  
 	<div id="wrapper">
 		<header>
-			<a href="index.php>
+			<a href="index.php">
 				<img src="../images/GhibliLogo1.png" alt="StudioGhibli Logo" id="logo">
 			</a> 
 			<nav id="topnav">
